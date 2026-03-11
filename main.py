@@ -1,5 +1,10 @@
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
 def main():
-    print("Hello from stock-agent-kr!")
+    print("stock-agent-kr 시작")
 
 
 if __name__ == "__main__":
